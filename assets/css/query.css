@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    
+  /* Projects */
+  .projects-grid, 
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  /* Base */
+  h1 span {
+    display: none;
+  }
+
+  /* Navbar */
+  .navbar-nav {
+    display: none;
+  }
+
+  /* Projects */
+  .projects-grid,
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
